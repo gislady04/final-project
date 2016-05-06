@@ -52,12 +52,13 @@ nav.navbar.navbar-default {
 	background-image: url(../img/elevation-2.jpg);
 }
 
-.slide-three {
+/*.slide-three {
 	background-image: url(../img/precision-agriculture-b.jpg);
-}
+}*/
 
 .slide-four {
-	background-image: url(../img/oahu.jpg);
+	background-image: url(../img/cancer-mortality-b.png);
+    margin: 0 5%;
 }
 
 .carousel-inner .item {
@@ -77,32 +78,32 @@ nav.navbar.navbar-default {
 
 /*end of carousel*/
 
-/*about us*/
-#about-us {
+/*about me*/
+#about-me {
 	min-height: 600px;
 }
 
-#about-us .row {
-	margin-top: 30px;
+#about-me .row {
+	margin-top: 15px;
 }
 
-#about-us h1 {
+#about-me h1 {
 	font-family: 'Lobster', cursive;
 	color: #0087b3;
 /*	color: #55b5bc;*/
-	font-size: 75px;
+	font-size: 50px;
 	margin-top: 0;
 }
 
-#about-us p {
+#about-me p {
 	font-weight: 300;
 	font-size: 17px;
 }
 
-#about-us .glyphicon {
+#about-me .glyphicon {
 	color: #a9a9a9;
 	font-size: 25px;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-bottom: 20px;
 	background-color: #eeeeee;
 	border-radius: 100%;
@@ -112,12 +113,12 @@ nav.navbar.navbar-default {
 	padding: 10px;
 }
 
-#about-us .glyphicon:hover {
+#about-me .glyphicon:hover {
 	background-color: #0087b3;
 	color: #FFFFFF;
 }
 
-/*end of about us*/
+/*end of about me*/
 
 /*services*/
 #services {
@@ -130,7 +131,7 @@ nav.navbar.navbar-default {
 
 #services h2 {
 	color: #FFFFFF;
-	font-size: 50px;
+	font-size: 30px;
 	text-shadow: 3px 3px 4px #000000;
 	margin-top: 75px;
 }
@@ -156,14 +157,14 @@ nav.navbar.navbar-default {
 	/*flex-flow: row wrap;*/
 	justify-content: space-around;
 	/*align-items: center;*/
-	flex-direction: column;
+	flex-direction: column;  
 }
 
 #services .item {
 	background-color: #edf1f4;
 	border-radius: 10%;
 	border: 2px solid rgb(252 252 252);
-	margin-top: 50px;
+	margin-top: 50px; 
 	margin-left: 20px;
 	width: 100%;
 	align-self: center;
@@ -184,10 +185,10 @@ nav.navbar.navbar-default {
 	text-align: center;
 }
 
-.item .fa:hover {		/*service symbols hover state*/
+/*.item .fa:hover {		service symbols hover state
 	background-color: #b38600;
-	/*background-color: #d2b48c;*/
-}
+	background-color: #d2b48c;
+}*/
 
 
 .service1 .parent {
@@ -253,6 +254,12 @@ nav.navbar.navbar-default {
 
 #projects .img-thumbnail {
 	border: 2px solid #000000;
+    margin-top: 15px;
+    opacity: 0.6;
+}
+
+#projects .img-thumbnail:hover {
+    opacity: 1.0;
 }
 
 #projects h4 {
@@ -264,7 +271,7 @@ nav.navbar.navbar-default {
 #projects .glyphicon {
 	color: #a9a9a9;
 	font-size: 25px;
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-bottom: 15px;
 	background-color: #eeeeee;
 	border-radius: 100%;
@@ -280,6 +287,57 @@ nav.navbar.navbar-default {
 }
 
 /*end of projects*/
+
+/*web-maps*/
+#web-maps {
+    padding-top: 10px;
+	padding-bottom: 80px;
+}
+
+#web-maps .container {
+    width: 90%;
+    margin: 0 auto;
+    min-width: 200px;
+}
+
+#web-maps h2 {
+    color: #000000;
+    font-size: 30px;
+    text-shadow: 3px 3px 4px #a6a6a6;
+/*	padding-top: 40px;*/
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#web-maps .img-thumbnail {
+	border: 2px solid #000000;
+    margin-top: 15px;
+    opacity: 0.4;
+}
+
+#web-maps .img-thumbnail:hover {
+    opacity: 1.0;
+}
+
+#web-maps .glyphicon {
+	color: #a9a9a9;
+	font-size: 25px;
+	margin-top: 70px;
+	margin-bottom: 15px;
+	background-color: #eeeeee;
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	padding: 10px;
+}
+
+#web-maps .glyphicon:hover {
+	background-color: #0087b3;
+	color: #FFFFFF;
+}
+
+/*end of web-maps*/
 
 /*contact*/
 #contact {
@@ -371,5 +429,10 @@ nav.navbar.navbar-default {
     min-width: auto;
     display: block;
 	}
+    #web-maps .container {
+        width: auto;
+        min-width: auto;
+        display: block;
+    }
 }
 
